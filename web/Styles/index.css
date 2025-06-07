@@ -1,0 +1,257 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2 Jan 2025, 21.51.54
+    Author     : rafly
+*/
+
+       body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            gap: 2.5rem;
+            background-color: white;
+        }
+
+        nav img {
+            height: 30px;
+            width: 10%;
+        }
+
+        nav a {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            color: #FF0000;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        section {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero {
+            margin-top: 9rem;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .hero-left {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: center;
+            margin-left: 8rem;
+        }
+
+        .hero-left h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 3rem;
+            margin-bottom: 1.75rem;
+            background: linear-gradient(to right, black, #FF0000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-left h2 {
+            font-size: 1.25rem;
+            width: 83.333%;
+            margin-bottom: 4rem;
+        }
+
+        .hero-left a {
+            background-color: #FF0000;
+            color: white;
+            padding: 0.5rem;
+            width: 11rem;
+            border-radius: 9999px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .hero-left a:hover {
+            background-color: #c70000;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Movies Section */
+        .container {
+            width: 90%;
+            margin: 3rem auto;
+            text-align: center;
+        }
+        
+        h1.section-title {
+            color: #b00;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .movies {
+            display: flex;
+            justify-content: center;
+            gap: 30px; /* Menambah jarak antar gambar */
+            flex-wrap: wrap;
+        }
+
+        .movie {
+            width: 300px; /* Menambah ukuran lebar gambar */
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .movie img {
+            width: 100%; /* Pastikan gambar memenuhi kontainer */
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .movie p {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 1.2rem; /* Menambah ukuran teks */
+            font-family: 'Montserrat', sans-serif;
+            color: red;
+        }
+        
+  html {
+            scroll-behavior: smooth;
+        }
+        
+                /* Top Films Section */
+                
+        .ranking-section {
+            margin: 3rem auto;
+            width: 90%;
+            text-align: center;
+        }
+                
+        h2.section-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #FF0000;
+            margin-bottom: 2rem;
+        }
+               
+
+        .ranking-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .ranking-card {
+            width: 200px;
+            text-align: center;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .ranking-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .ranking-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #FF0000;
+        }
+
+        .ranking-poster {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 0.5rem 0;
+        }
+
+        .ranking-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            margin: 0.5rem 0;
+            color: #333;
+        }
+
+        .ranking-rating {
+            font-size: 1rem;
+            color: #555;
+        }
+        
+        /* Styling for the Genres Section */
+#genres-section {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    background-color: #f4f4f4; /* Warna latar belakang lembut */
+}
+
+#genres-section .section-title {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF0000; /* Merah untuk menarik perhatian */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.genres-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem; /* Jarak antar item */
+}
+
+.genre-item {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.genre-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.genre-item p {
+    font-family: 'Inter', sans-serif;
+    margin: 0.5rem 0;
+    color: #333;
+    font-size: 1rem;
+}
+
+.genre-item p strong {
+    color: #FF0000; /* Warna merah untuk elemen penting */
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+

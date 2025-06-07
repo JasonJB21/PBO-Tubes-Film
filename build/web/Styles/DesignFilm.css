@@ -1,0 +1,191 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 31 Dec 2024, 21.06.26
+    Author     : rafly
+*/
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: white;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            gap: 2.5rem;
+            background-color: white;
+        }
+
+        nav img {
+            height: 30px;
+            width: 10%;
+        }
+
+        nav a {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            color: #FF0000;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .movie-header {
+            display: flex;
+            gap: 20px;
+            max-width: 1100px;
+            margin: 2rem auto;
+        }
+
+        .movie-header img {
+            width: 300px;
+            border-radius: 10px;
+            margin-top: -10px;
+        }
+
+        .movie-header .details {
+            flex-grow: 1;
+            position: relative;
+        }
+
+        .movie-header .details h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .movie-header .details .review-button {
+            background-color: #8D0000; /* Warna latar belakang */
+            color: white; /* Warna teks */
+            padding: 0.5rem 1rem; /* Padding untuk ukuran tombol */
+            border-radius: 5px; /* Sudut melengkung */
+            border: none; /* Hapus border default */
+            font-family: 'Montserrat', sans-serif; /* Font */
+            font-weight: bold; /* Teks tebal */
+            cursor: pointer; /* Ganti kursor saat hover */
+            transition: background-color 0.3s ease; /* Animasi perubahan warna */
+            display: inline-block; /* Pastikan tampil sebagai tombol */
+            text-align: center; /* Pusatkan teks */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek 3D */
+        }
+
+        /* Hover Effect */
+        .movie-header .details .review-button:hover {
+            background-color: #c70000; /* Warna saat hover */
+        }
+
+
+        .synopsis {
+            margin-top: 1rem;
+        }
+
+        .synopsis h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .synopsis p {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #555;
+        }
+        
+                /* Review Section Styling */
+        .reviews-section {
+            max-width: 1100px;
+            margin: 2rem auto;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .review-column {
+            flex: 1;
+        }
+
+        .review-column h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .review {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .review h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            margin: 0;
+            font-weight: bold;
+            color: #666;
+        }
+
+        .review .rating {
+            font-weight: bold;
+            color: #FF0000;
+        }
+
+        .review p {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            margin: 0.5rem 0;
+        }
+
+        .review .actions {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #999;
+        }
+
+        .review .actions span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+                    /* Navigation Bar */
+            nav {
+                display: flex;
+                justify-content: center;
+                padding: 1.5rem;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                gap: 2.5rem;
+                background-color: white;
+            }
+
+            nav img {
+                height: 30px;
+                width: 10%;
+            }
+
+            nav a {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                color: #FF0000;
+                text-decoration: none;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
